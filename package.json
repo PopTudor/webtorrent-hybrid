@@ -1,21 +1,19 @@
 {
-  "name": "webtorrent-hybrid",
+  "name": "@super-transfer/webtorrent-hybrid",
   "description": "Streaming torrent client",
-  "version": "4.0.1",
-  "author": {
-    "name": "WebTorrent, LLC",
-    "email": "feross@webtorrent.io",
-    "url": "https://webtorrent.io"
+  "version": "4.0.3",
+  "author": "WebTorrent, LLC <feross@webtorrent.io> (https://webtorrent.io)",
+  "bin": {
+    "webtorrent-hybrid": "bin/cmd.js"
   },
-  "bin": "./bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/webtorrent/webtorrent-hybrid/issues"
+    "url": "https://github.com/PopTudor/webtorrent-hybrid/issues"
   },
   "dependencies": {
-    "create-torrent": "^4.0.0",
-    "webtorrent": ">=0.107.6",
-    "webtorrent-cli": "^3.0.0",
-    "wrtc": "^0.4.1"
+    "create-torrent": "^4.4.1",
+    "webtorrent": ">=0.108.3",
+    "webtorrent-cli": "^3.0.6",
+    "wrtc": "^0.4.5"
   },
   "devDependencies": {
     "standard": "*"
@@ -39,9 +37,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/webtorrent/webtorrent-hybrid.git"
+    "url": "git://github.com/PopTudor/webtorrent-hybrid"
   },
   "scripts": {
     "test": "standard"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }
